@@ -1,0 +1,59 @@
+/*************************/
+/* Auteur : sNapz        */
+/* Date : 23/02/2012     */
+/* Version : 1.0         */
+/* sNapz-Portail v1      */
+/*************************/
+
+*{margin:0;padding:0;}
+
+html{height:100%;}
+
+body{
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:12px;
+color:white;
+background:#000 url("images/motif_fond.png") repeat;
+height:100%;
+}
+
+a img{border: none;}
+
+/*//////////////////////////////////////// GLOBAL /////////////////////////////////////////*/
+
+div#bg_top{width:100%;min-height:292px;background: url("images/bg_top.png") repeat-x;position:absolute;top:0;z-index:0;}
+div#bg_bot{width:100%;min-height:292px;background: url("images/bg_bot.png") repeat-x;position:absolute;bottom:0;z-index:1;}
+
+
+div#global{z-index:1000;position:relative;min-height:100%;}
+div#global2{width:1000px;margin:auto;z-index:1001;position:relative;}
+div#global h1{text-indent:-9999px;width:970px;height:105px;margin:auto;background: url("images/header.png") no-repeat;}
+div#global p#wellcome_mess{text-indent:-9999px;width:483px;height:41px;background: url("images/wellcome_mess.png") no-repeat;}
+div#global p#footer{text-indent:-9999px;width:467px;height:83px;background: url("images/footer.png") no-repeat;margin:auto;clear:both;}
+embed#sound{width:0px;height:0px;border:0;overflow:hidden;}
+
+/*//////////////////////////////////////// 3 BOUTONS PRINCIPAUX /////////////////////////////////////////*/
+
+div#global ul#nav,ul#infos{list-style:none;clear:both;}
+div#global ul#nav li a{width:288px;height:352px;float:left;text-indent:-9999px;margin-left:30px;text-decoration:none;border:0;outline-style:none;}
+div#global ul#nav li#site a{background: url("images/site_off.png") no-repeat;}
+div#global ul#nav li#site a:hover{background: url("images/site_on.png") no-repeat;}
+div#global ul#nav li#forum a{background: url("images/forum_off.png") no-repeat;}
+div#global ul#nav li#forum a:hover{background: url("images/forum_on.png") no-repeat;}
+div#global ul#nav li#vote a{background: url("images/vote_off.png") no-repeat;}
+div#global ul#nav li#vote a:hover{background: url("images/vote_on.png") no-repeat;}
+
+
+/*//////////////////////////////////////// ZONE INFOS /////////////////////////////////////////*/
+
+div#global ul#infos li{height:83px;float:left;font-size:20px;margin-left:40px;}
+div#global ul#infos li#serveur{width:270px;background: url("images/serveur.png") no-repeat;}
+div#global ul#infos li#serveur img{width:107px;height:83px;float:left;margin-left:164px;}
+div#global ul#infos li#comptes{width:267px;background: url("images/comptes.png") no-repeat;}
+div#global ul#infos li#comptes p{margin:30px 0 0 177px;width:77px;height:30px;text-align:center;}
+div#global ul#infos li#personnages{width:304px;background: url("images/personnages.png") no-repeat;}
+div#global ul#infos li#personnages p{margin:30px 0 0 214px;width:77px;height:30px;text-align:center;}
+
+/***** NE PAS SUPPRIMER CE COPYRIGHT - RESPECTEZ MON TRAVAIL S'IL VOUS PLAIT *****/
+/* Coded by sNapz */
+/***** NE PAS SUPPRIMER CE COPYRIGHT - RESPECTEZ MON TRAVAIL S'IL VOUS PLAIT *****/
